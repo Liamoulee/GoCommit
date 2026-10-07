@@ -1,12 +1,23 @@
 # GoCommit
-Software that allows you to automatically create commits
-## About
+**GoCommit** is a Node.js tool that automatically generates Git commits over a chosen date range. It can create commit activity without manually creating each commit.
+
+![manycommit](assets/commits.png)
+## Features
 The project is currently in development
+
+- [x] Customizable starting date
+- [x] Custom number of commits
+- [x] Automatic Git commit generation
+- [x] Works with any Git repository
+- [ ] Gui 
 ## Getting Started
-1. **Install the requirements**
+1. **Requirements**
 
 &emsp;&emsp;• [Node.js](https://nodejs.org/)<br>
-&emsp;&emsp;• [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+&emsp;&emsp;• [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)<br>
+&emsp;&emsp;• [Git](https://git-scm.com/install/)<br>
+&emsp;&emsp;• A Git repository where you want to GoCommit generate commits _(a fork of GoCommit or an existing/new repository)_
+
 
 2. **Clone this repository**
 ```bash
@@ -25,11 +36,11 @@ npm init -y
 ```bash
 npm install jsonfile moment simple-git random
 ```
-5. **Personalize the code**
+5. **Configure GoCommit**
 
-&emsp;&emsp;**Starting limit date**
+&emsp;&emsp;**Starting date**
 
-&emsp;&emsp;Change the starting limit date of commit by simply modifying line 28 in `index.js`
+&emsp;&emsp;Change the `startDate` variable in `index.js`
 
 &emsp;&emsp;**Example:**
 
@@ -39,7 +50,7 @@ const startDate = moment("1999-01-01");
 ```
 &emsp;&emsp;**Number of commits**
 
-&emsp;&emsp;Change the number of commits by simply modifying line 52 in `index.js`
+&emsp;&emsp;Change the value passed to `makeCommits()` in `index.js`
 
 &emsp;&emsp;**Example:**
 
@@ -47,7 +58,7 @@ const startDate = moment("1999-01-01");
 ```js
 makeCommits(100);
 ```
-6. **Launch**
+6. **Run GoCommit**
 ```bash
 node index.js
 ```
