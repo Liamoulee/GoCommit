@@ -9,7 +9,10 @@ The project is currently in development
 - [x] Custom number of commits
 - [x] Automatic Git commit generation
 - [x] Works with any Git repository
-- [ ] Gui 
+- [ ] Tauri Gui
+- [ ] Contribution graph drawing
+- [ ] Portable Windows, Linux & macOS apps
+- [ ] Automatic updates
 ## Getting Started
 1. **Requirements**
 
