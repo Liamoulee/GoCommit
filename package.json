@@ -1,15 +1,15 @@
 {
-  "name": "thomyorke",
+  "name": "GoGreen",
   "version": "1.0.0",
-  "description": "nice dream",
+  "description": "Software that allows you to automatically create commits",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Liamoule",
+  "license": "GPL-3.0",
   "dependencies": {
     "jsonfile": "^6.2.1",
     "moment": "^2.31.0",
