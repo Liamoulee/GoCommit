@@ -29,8 +29,7 @@ npm install jsonfile moment simple-git random
 
 &emsp;&emsp;**Starting limit date**
 
-&emsp;&emsp;Change the starting limit date of commit by simply modifying line 28 in `in
-ex.js`.
+&emsp;&emsp;Change the starting limit date of commit by simply modifying line 28 in `index.js`
 
 &emsp;&emsp;**Example:**
 
@@ -40,7 +39,7 @@ const startDate = moment("1999-01-01");
 ```
 &emsp;&emsp;**Number of commits**
 
-&emsp;&emsp;Change the number of commits by simply modifying line 52 in `index.js`.
+&emsp;&emsp;Change the number of commits by simply modifying line 52 in `index.js`
 
 &emsp;&emsp;**Example:**
 
